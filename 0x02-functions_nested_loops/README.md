@@ -1,1 +1,1 @@
-0x02. C - Functions, nested loops
+This is Alx project on Functions and  nested loops
