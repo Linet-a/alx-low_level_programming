@@ -1,3 +1,11 @@
+#include "main.h"
+
+/**
+ * _strspn - function declaration
+ * @s: source string
+ * @accept: prefix substring
+ * Return: number of bytes
+ */
 unsigned int _strspn(char *s, char *accept);
 
 /**
