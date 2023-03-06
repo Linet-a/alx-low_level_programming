@@ -1,3 +1,11 @@
+#include "main.h"
+
+/**
+ * *_strpbrk - function declaration
+ * @s: string to search
+ * @accept: bytes to search
+ * Return: pointer or NULL
+ */
 char *_strpbrk(char *s, char *accept);
 
 /**
