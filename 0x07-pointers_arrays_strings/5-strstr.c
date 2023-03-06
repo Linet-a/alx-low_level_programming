@@ -1,3 +1,11 @@
+#include "main.h"
+
+/**
+ * *_strstr - function declaration
+ * @haystack: the string to be searched
+ * @needle: the substring
+ * Return: string or NULL
+ */
 char *_strstr(char *haystack, char *needle);
 
 /**
