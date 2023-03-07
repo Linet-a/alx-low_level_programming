@@ -1,12 +1,13 @@
-include "main.h"
+#include "main.h"
 
 /**
  * *_memcpy - function declaration
  * @dest: destination address
  * @src: source address
  * @n: number of times
- * Return: sring
+ * Return: string
  */
+
 char *_memcpy(char *dest, char *src, unsigned int n);
 
 /**
@@ -20,11 +21,12 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int index;
+	char *ptr_dest = dest;
+	char *ptr_src = src;
 
-	for (index = 0; index < n; index++)
+	while (n-- > 0)
 	{
-		dest[index] = src[index];
+		*ptr_dest++ = *ptr_src++;
 	}
 	return (dest);
 }
